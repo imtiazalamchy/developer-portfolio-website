@@ -113,11 +113,12 @@ font-size: 18px;
 font-style: normal;
 font-weight: 400;
 line-height: 30px; /* 166.667% */
+width: 585px;
 }
 
 .buttonmain {
     display: flex;
-    column-gap: 24px;
+    gap: 24px;
 }
 .buttonone a {
 padding: 20px 30px;
@@ -130,7 +131,10 @@ font-size: 20px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
-transition: .4s;
+transition: all linear .4s;
+}
+.buttonone a i {
+   margin-right: 12px;
 }
 .buttonone a:hover {
     background-color: #181818;
@@ -148,9 +152,206 @@ font-weight: 700;
 line-height: normal;
 transition: .4s;
 }
+.buttontwo a i {
+   margin-right: 12px;
+}
 .buttontwo a:hover {
  border:2px solid #181818;
 color: #181818;
 }
 
 /* banner end */
+
+/* about start */
+
+#about {
+    padding: 130px 0;
+}
+.aboutmain {
+    border-radius: 30px;
+background: #E8ECEA;
+padding: 130px 160px;
+}
+.aboutmain h4 {
+    color: #181818;
+text-align: center;
+font-family: "Open Sans";
+font-size: 35px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-bottom: 16px;
+}
+.aboutmain p {
+color: #757575;
+text-align: center;
+font-family: "Open Sans";
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 166.667% */
+}
+.info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.infoitems h5 {
+  color: var(--Dark-03, #757575);
+text-align: center;
+font-family: "Open Sans";
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 150% */
+}
+.infoitems h6 {
+color: var(--Dark-02, #474747);
+font-family: "Open Sans";
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 30px;
+text-align: center;
+}
+
+/* about end */
+
+/* what i do start */
+
+#whatido {
+    padding-bottom: 130px;
+}
+.whatidoomain h4 {
+    color: #181818;
+text-align: center;
+font-family: "Open Sans";
+font-size: 35px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-bottom: 16px;
+}
+.whatidoomain p {
+color: #757575;
+text-align: center;
+font-family: "Open Sans";
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 166.667% */
+margin-bottom: 50px;
+}
+.card {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 24px;
+}
+.carditems {
+    width: 267px;
+    height: 377px;
+    padding: 30px;
+    border-radius: 5px;
+    background: #D4D4D4;
+}
+.carditems:hover {
+    background: #FD6E0A;
+    color: white;
+}
+.carditems h5{
+color: var(--Dark-01, #181818);
+text-align: center;
+font-family: "Open Sans";
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-align: left;
+margin-top: 30px;
+}
+.carditems p{
+color: var(--Dark-03, #757575);
+font-family: "Open Sans";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 175% */
+text-align: left;
+margin-top: 16px;
+}
+
+/* what i do end */
+
+/* resume start */
+
+#resume {
+    padding-bottom: 130px;
+}
+.resumemain .buttonone {
+    text-align: center;
+} 
+.resumemain h4 {
+color: var(--Dark-01, #181818);
+text-align: center;
+font-family: "Open Sans";
+font-size: 35px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-bottom: 120px;
+}
+.resumecontent {
+    display: flex;
+    column-gap: 24px;
+    margin-bottom: 40px;
+}
+.educationmain h4 {
+color: var(--Dark-01, #181818);
+font-family: "Open Sans";
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-align: left;
+margin-bottom: 30px;
+}
+.educationitem h4 {
+    color: #FD6E0A;
+font-family: "Open Sans";
+font-size: 25px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-align: left;
+margin-bottom: 10px;
+}
+.educationitem h5 {
+color: var(--Dark-01, #181818);
+font-family: "Open Sans";
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-align: left;
+margin-bottom: 10px;
+}
+.educationitem p {
+color: #757575;
+font-family: "Open Sans";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 175% */
+width: 511px;
+margin-bottom: 30px;
+}
+.line {
+    content: "";
+    width: 558px;
+    height: 1px;
+    background: #595959;
+    margin-bottom: 30px;
+}
+
+
+/* resume end */
