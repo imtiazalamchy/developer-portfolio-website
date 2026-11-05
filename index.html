@@ -3,237 +3,74 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Class 8</title>
+    <title>Bootstrap</title>
+    <!-- All css file start -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/all.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <!-- All css file end -->
+    
 </head>
 <body>
 
-<!-- header part start   -->
+<!-- Header Part Start -->
 
-<section id="header">
-    <div class="container">
-        <div class="logowithmenu">
-            <div class="logo">
-                <img src="img/imtiaz.svg" alt="imtiaz.svg">
-            </div>
-            <div class="menu">
-                <ul>
-                    <li><a href="#">Portfolio</a></li>
-                    <li><a href="#">Blog</a></li>
-                </ul>
-            </div>
-            <div class="button">
-                <a href="#">Hire Me</a>
-            </div>
-        </div>
+<nav class="navbar navbar-expand-lg">
+  <div class="container">
+    <a class="navbar-brand" href="#">
+        <img src="img/logo.png" alt="logo.png">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="#">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Career</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Records</a>
+        </li><li class="nav-item">
+          <a class="nav-link" href="#">Gallery</a>
+        </li><li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+        <a href="#" class="btn">Get in touch</a>
+      </ul>
     </div>
-</section>
+  </div>
+</nav>
 
-<!-- header part end   -->
+<!-- Header Part End -->
     
-<!-- hero banner part start   -->
- 
 <section id="banner">
     <div class="container">
-        <div class="bannermain">
-            <div class="bannertext">
-            <div class="bannertextone">
-                <h3>Hey, This is</h3>
-            </div>
-            <div class="bannertexttwo">
-                <h1>Imtiaz Alam</h1>
-            </div>
-            <div class="bannertexthree">
-                <p>I'm a UI/UX Designer, Framer Developer, and Graphic & Brand Designer with 3+ years of experience. I create clean, modern, and user-friendly digital experiences that combine functionality with strong visual design.</p>
-            </div>
-            </div>
-
-            <div class="buttonmain">
-                <div class="buttonone">
-                    <a href="#"><i class="fa-solid fa-cloud-arrow-down"></i>Download CV</a>
+        <div class="row">
+                <div class="col-lg-6"></div>
+            <div class="col-lg-5 offset-lg-1">
+            <div class="image">
+                    <picture>
+                    <img src="img/6b20238d6d832dd8cc4b3c2bc315849b1666ac9a.jpg" alt="6b20238d6d832dd8cc4b3c2bc315849b1666ac9a.jpg" class="w-100 img fluid">
+                </picture>
+                <div class="card">
+                <h3>ICC #1 ALL-ROUNDER</h3>
+                <h4>Top-ranked in Tests, ODIs & T20Is at once (2015)</h4>
                 </div>
-                <div class="buttontwo">
-                    <a href="#"><i class="fa-solid fa-phone"></i>Contact</a>
-                </div>
-            </div>   
-        </div>
-    </div>
-</section>
-
- <!-- hero banner part end   -->
-
-<!-- about part start   -->
-
-<section id="about">
-    <div class="container">
-        <div class="aboutmain">
-            <h4>About Me</h4>
-            <p>I'm a multidisciplinary designer with 3+ years of experience in UI/UX design, Framer development, graphic design, and branding. Having delivered 200+ projects worldwide, I enjoy creating simple, creative, and functional designs that solve real problems. From digital products to brand identities, I help businesses bring their ideas to life through thoughtful design.</p>
-            <div class="info">
-                <div class="infoitems">
-                    <h5>Name:</h5>
-                    <h6>Mary Hardy</h6>
-                </div>    
-                <div class="infoitems">
-                    <h5>Email:</h5>
-                    <h6>info@gmail.com</h6>
-                </div>    
-                <div class="infoitems">
-                    <h5>Date of birth:</h5>
-                    <h6>11 November 1987</h6>
-                </div>    
-                <div class="infoitems">
-                    <h5>From:</h5>
-                    <h6>Los Angeles, USA</h6>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- about part end   -->
-
-<!-- what i do part start   -->
-
-<section id="whatido">
-    <div class="container">
-        <div class="whatidoomain">
-            <h4>What I do</h4>
-            <p>With 3+ years of experience, I specialize in creating modern digital products, responsive websites, <br> engaging graphics, and memorable brand identities that help businesses stand out.</p>
-            <div class="card">
-                <div class="carditems">
-                    <img src="img/figma.svg" alt="figma.svg">
-                    <h5>UI/UX DESIGN</h5>
-                    <p>I design intuitive mobile apps, websites, and SaaS dashboards with a focus on usability, visual hierarchy, and seamless user experiences.</p>
-                </div>
-                <div class="carditems">
-                    <img src="img/framer.svg" alt="framer.svg">
-                    <h5>FRAMER DEVELOPMENT</h5>
-                    <p>I build modern, responsive websites using Framer, combining interactive elements, smooth animations, and functional layouts.</p>
-                </div>
-                <div class="carditems">
-                    <img src="img/ps.svg" alt="ps.svg">
-                    <h5>GRAPHIC DESIGN</h5>
-                    <p>I create engaging social media creatives, marketing materials, email designs, and promotional graphics that communicate effectively.</p>
-                </div>
-                <div class="carditems">
-                    <img src="img/ai.svg" alt="ai.svg">
-                    <h5>BRANDING & IDENTITY</h5>
-                    <p>I design memorable logos, brand identities, and visual guidelines that establish a strong and consistent brand presence.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- what i do part end   -->
-
-<!-- resume start   -->
-
-<section id="resume">
-    <div class="container">
-        <div class="resumemain">
-            <h4>A summary of My Resume</h4>
-            <div class="resumecontent">
-                <div class="educationmain">
-                    <h4>My Education</h4>
-                     <div class="educationitemmain">
-                        <div class="educationitem">
-                          <h4>Master in Computer Engineering</h4>
-                          <h5>Harvard University / 2015 - 2017</h5>
-                          <p>List skill/technologies here. You can change the icon above 
-                           to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p> 
-                          <div class="line"></div>
-                        </div>
-                        <div class="educationitem">
-                          <h4>Master in Computer Engineering</h4>
-                          <h5>Harvard University / 2015 - 2017</h5>
-                          <p>List skill/technologies here. You can change the icon above 
-                           to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p> 
-                          <div class="line"></div>
-                        </div>
-                        <div class="educationitem">
-                          <h4>Master in Computer Engineering</h4>
-                          <h5>Harvard University / 2015 - 2017</h5>
-                          <p>List skill/technologies here. You can change the icon above 
-                           to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p> 
-                        </div>
-                    </div>
-                </div>
-                    <div class="educationmain">
-                    <h4>My Experience</h4>
-                     <div class="educationitemmain">
-                        <div class="educationitem">
-                          <h4>Sr. Font End Developer</h4>
-                          <h5>Apple Inc / 2020 - Current</h5>
-                          <p>List skill/technologies here. You can change the icon above 
-                          to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p> 
-                          <div class="line"></div>
-                        </div>
-                          <div class="educationitem">
-                          <h4>Jr. Font End Developer</h4>
-                          <h5>Dribbble Inc / 2018 - 2022</h5>
-                          <p>List skill/technologies here. You can change the icon above 
-                          to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p> 
-                          <div class="line"></div>
-                        </div>
-                          <div class="educationitem">
-                          <h4>HTML Developer</h4>
-                          <h5>Adobe Inc / 2017 - 2018</h5>
-                          <p>List skill/technologies here. You can change the icon above 
-                          to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p> 
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="buttonone">
-            <a href="#"><i class="fa-solid fa-cloud-arrow-down"></i>Download CV</a> 
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- resume end   --> 
-
-<!-- footer start   -->
-
-<section id="footer">
-    <div class="container">
-        <div class="footermain">
-               <div class="left">
-               <h4>Lets Connect</h4>
-               <p>Please fill out the form on this section to contact with me or call between 9:00   A.M and 8.00 P.M ET, Monday through Friday.</p>
-               <img src="img/social.svg" alt="social.svg">
-            </div>
-            <div class="form">
-               <h4>Let’s Message me</h4>
-            <div class="form">
-                <form action="#">
-                    <div class="input_name">
-                        <input type="text" name="name" placeholder="Your name" required>
-                    </div>
-                    <div class="input_name">
-                        <input type="email" name="email" placeholder="Your email" required>
-                    </div>
-                    <div class="input_name">
-                        <textarea name="message" placeholder="Message" required></textarea>
-                    </div>
-                    <div class="submit">
-                        <a href="#">Submit<i class="fa-solid fa-arrow-right-long"></i></a>
-                    </div>
-                </form>
             </div>
             </div>
         </div>
     </div>
 </section>
 
-<!-- footer end   -->
+<!-- All js file start     -->
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/script.js"></script>
+<!-- All js file end     -->
  
-
 </body>
 </html>
